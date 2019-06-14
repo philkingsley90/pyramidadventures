@@ -220,7 +220,7 @@ body {
 body {
   background: #fff;
   color: #666;
-  font-size: 15px;
+  font-size: 17px;
   font-family: "Spectral-ExtraLight";
   font-weight: 200;
   font-style: normal;
@@ -245,26 +245,26 @@ h3 small,
 h4 small,
 h5 small,
 h6 small {
-  font-size: 12px;
+  font-size: 14px;
   margin: 0 0 0 5px;
 }
 h1 {
   font-size: 28px;
 }
 h2 {
-  font-size: 24px;
+  font-size: 26px;
 }
 h3 {
-  font-size: 18px;
+  font-size: 22px;
 }
 h4 {
-  font-size: 16px;
+  font-size: 20px;
 }
 h5 {
-  font-size: 14px;
+  font-size: 18px;
 }
 h6 {
-  font-size: 11px;
+  font-size: 17px;
 }
 strong,
 b {
@@ -279,7 +279,7 @@ a:focus {
 }
 small,
 .small {
-  font-size: 13px;
+  font-size: 14px;
 }
 ul,
 menu,
@@ -301,7 +301,7 @@ label {
   font-weight: inherit;
 }
 .lead {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 24px;
 }
 .unstyled {
@@ -330,7 +330,7 @@ label {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 17px;
 }
 /*= BUTTONS
 ---------------------------------------------------------------------------------------------- */
@@ -373,7 +373,7 @@ label {
   background: #96cff1;
 }
 .header .navbar-nav > li > a {
-  font-size: 15px;
+  font-size: 18px;
   color: #666;
   text-transform: uppercase;
 }
@@ -594,7 +594,7 @@ label {
 #Grid .mix > div .media-desc b {
   color: #fff;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 16px;
+  font-size: 17px;
 }
 #Grid .mix > div .media-detail {
   background: #f9f9f9;
@@ -628,7 +628,7 @@ label {
 .footer {
   background: #96cff1;
   color: #666;
-  font-size: 13px;
+  font-size: 14px;
   padding: 20px 0;
 }
 .footer * {
@@ -670,7 +670,7 @@ label {
 }
 .panel-title a i {
   color: #bbb;
-  font-size: 14px;
+  font-size: 18px;
   height: 23px;
   line-height: 23px;
   float: left;
