@@ -470,6 +470,16 @@ label {
   letter-spacing: 2px;
   word-spacing: 5px;
 }
+.section-headlines > h5 {
+  font-family: 'Spectral-ExtraLight';
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #fdfdfd;
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  word-spacing: 5px;
+}
 .section-headlines > div {
   line-height: 1.8;
 }
