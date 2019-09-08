@@ -766,3 +766,13 @@ label {
   max-width: 250px;
   margin-bottom: 3em;
 }
+.img-portrait {
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 3em;
+}
+.img-landscape {
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 3em;
+}
