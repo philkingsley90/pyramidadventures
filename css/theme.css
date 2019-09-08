@@ -476,7 +476,7 @@ label {
   text-transform: uppercase;
   color: #fdfdfd;
   display: inline-block;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 30px;
   word-spacing: 5px;
 }
@@ -769,10 +769,12 @@ label {
 .img-portrait {
   width: 100%;
   max-width: 250px;
+  margin-top: 1em;
   margin-bottom: 3em;
 }
 .img-landscape {
   width: 100%;
-  max-width: 250px;
+  max-width: 400px;
+  margin-top: 1em;
   margin-bottom: 3em;
 }
