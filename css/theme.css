@@ -206,8 +206,8 @@
 /*= TYPOGRAPHY
 ---------------------------------------------------------------------------------------------- */
 @font-face {
-    font-family: Spectral-ExtraLight;
-    src: url("../fonts/Spectral-ExtraLight.ttf") /* TTF file for CSS3 browsers */
+  font-family: Spectral-ExtraLight;
+  src: url("../fonts/Spectral-ExtraLight.ttf"); /* TTF file for CSS3 browsers */
 }
 
 html,
@@ -215,7 +215,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  
 }
 body {
   background: #fff;
@@ -339,7 +338,7 @@ label {
   -moz-border-radius: 2px;
   border-radius: 2px;
   border-width: 2px;
-  font-family: 'Spectral-ExtraLight';
+  font-family: "Spectral-ExtraLight";
   border-color: transparent;
 }
 .btn:hover {
@@ -460,7 +459,7 @@ label {
   font-size: 32px;
 }
 .section-headlines > h4 {
-  font-family: 'Spectral-ExtraLight';
+  font-family: "Spectral-ExtraLight";
   font-size: 3em;
   text-transform: uppercase;
   color: #fdfdfd;
@@ -471,7 +470,7 @@ label {
   word-spacing: 5px;
 }
 .section-headlines > h5 {
-  font-family: 'Spectral-ExtraLight';
+  font-family: "Spectral-ExtraLight";
   font-size: 2em;
   text-transform: uppercase;
   color: #fdfdfd;
@@ -526,7 +525,10 @@ label {
   padding: 100px 0;
 }
 
-.splash-block p { color:#fff !important; font-size:20px }
+.splash-block p {
+  color: #fff !important;
+  font-size: 20px;
+}
 /*= JUMPER
 ---------------------------------------------------------------------------------------------- */
 .jumper {
@@ -547,7 +549,7 @@ label {
 ---------------------------------------------------------------------------------------------- */
 .gallery-control {
   margin: 0 0 30px;
-  text-align:center;
+  text-align: center;
 }
 #Grid {
   font-size: 0;
@@ -588,11 +590,11 @@ label {
   width: 100%;
   height: 100%;
   line-height: 20px;
-  -o-transition: opacity .3s linear;
-  -ms-transition: opacity .3s linear;
-  -moz-transition: opacity .3s linear;
-  -webkit-transition: opacity .3s linear;
-  transition: opacity .3s linear;
+  -o-transition: opacity 0.3s linear;
+  -ms-transition: opacity 0.3s linear;
+  -moz-transition: opacity 0.3s linear;
+  -webkit-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
 }
 #Grid .mix > div .media-desc > div {
   width: 100%;
@@ -630,9 +632,6 @@ label {
   }
 }
 
-
-
-
 /*= FOOTER
 ---------------------------------------------------------------------------------------------- */
 .footer {
@@ -644,7 +643,6 @@ label {
 .footer * {
   line-height: 20px;
 }
-
 
 /*= BOOTSTRAP OVERWRITE: ACCORDIANS
 ---------------------------------------------------------------------------------------------- */
@@ -712,13 +710,11 @@ label {
   ---------------------------------------------------------------------------------------------- */
 }
 
-
-
 .centred-list {
-    text-align: left;
-    max-width: 850px;
-    display: inline-block;
-    margin-top: 2em;
+  text-align: left;
+  max-width: 850px;
+  display: inline-block;
+  margin-top: 2em;
 }
 
 .nav-bar-logo {
@@ -734,27 +730,27 @@ label {
 }
 
 .centered-img {
-   margin-top: 2em;
-   width: 150px;
+  margin-top: 2em;
+  width: 150px;
 }
 
 .navbar-toggle {
-    position: relative;
-    float: right;
-    margin-right: 15px;
-    padding: 8px 8px;
-    margin-top: 13px;
-    margin-bottom: 10px;
-    background-color: transparent;
-    border: 3px solid transparent;
-    border-radius: 6px;
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 8px 8px;
+  margin-top: 13px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 3px solid transparent;
+  border-radius: 6px;
 }
 
 .navbar-toggle .icon-bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    border-radius: 1px;
+  display: block;
+  width: 25px;
+  height: 3px;
+  border-radius: 1px;
 }
 
 .navbar-brand {
@@ -777,4 +773,27 @@ label {
   max-width: 400px;
   margin-top: 1em;
   margin-bottom: 3em;
+}
+
+.video-container-wrapper {
+  max-width: 560px;
+  margin: auto;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
