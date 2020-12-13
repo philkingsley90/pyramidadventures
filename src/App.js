@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import AppNavBar from "./layout/AppNavBar";
 import Footer from "./layout/Footer";
 import ScrollToTop from "./layout/ScrollToTop";
@@ -26,7 +26,7 @@ const App = observer(() => {
   );
 
   return (
-    <Router>
+    <Router basename="/">
       <AppNavBar />
       {content}
       <Instagram />
