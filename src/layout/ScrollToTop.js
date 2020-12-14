@@ -12,7 +12,7 @@ const scrollToSection = () => {
         element.scrollIntoView();
         window.scrollBy(0, -100); // Adjusts for the nav bar
       }
-    }, 400);
+    }, 800);
   }
 };
 

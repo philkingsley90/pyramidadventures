@@ -7,6 +7,7 @@ import ScrollToTop from "./layout/ScrollToTop";
 // import CookieBanner from "./components/CookieBanner";
 // import PageLanding from "./components/PageLanding";
 import PageStore from "./pages/PageStore";
+import NotFound from "./pages/NotFound";
 import Page from "./pages/Page";
 import "./App.css";
 import { observer } from "mobx-react";
@@ -17,10 +18,13 @@ const App = observer(() => {
     <ScrollToTop>
       <Switch>
         {PageStore.getPaths().map((path) => (
-          <Route exact path={path + "/(.*)"} key={path}>
+          <Route exact path={path} key={path}>
             <Page path={path} />
           </Route>
         ))}
+        <Route path="*">
+          <NotFound />
+        </Route>
       </Switch>
     </ScrollToTop>
   );
