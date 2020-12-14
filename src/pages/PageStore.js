@@ -14,6 +14,7 @@ const home = {
   subtitle: "Yoga Tales For Kids",
   img: homeImg1,
   fullPage: true,
+  feedbackTransparent: true,
   feedback: [
     {
       quote: "Lucy is a truly exceptional and inspirational yoga teacher.",
@@ -48,6 +49,7 @@ const pages = {
     title: "Our Story",
     menuTitle: "Our Story",
     img: landingImg5,
+    feedbackTransparent: false,
     feedback: [
       {
         quote: "Lucy is a truly exceptional and inspirational yoga teacher.",
@@ -81,6 +83,7 @@ const pages = {
     subtitle: "",
     menuTitle: "Why We Love Yoga",
     img: landingImg2,
+    feedbackTransparent: false,
     feedback: [
       {
         quote: "Lucy is a truly exceptional and inspirational yoga teacher.",
@@ -114,6 +117,7 @@ const pages = {
     subtitle: "Get some yoga magic into your setting!",
     menuTitle: "Join In",
     img: landingImg3,
+    feedbackTransparent: false,
     feedback: [
       {
         quote: "Lucy is a truly exceptional and inspirational yoga teacher.",

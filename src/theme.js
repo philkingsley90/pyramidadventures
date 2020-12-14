@@ -103,6 +103,10 @@ const sections = {
   secondary: sectionColours.pink,
   tertiary: sectionColours.green,
   feedback: {
+    ...sectionColours.blue,
+    padding: 0,
+  },
+  feedbackTransparent: {
     ...sectionColours.white,
     backgroundColor: "rgba(255,255,255,0.6)",
     padding: 0,

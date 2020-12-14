@@ -5,7 +5,8 @@ import { Carousel } from "react-responsive-carousel";
 import PageStore from "../pages/PageStore";
 
 const useStyles = makeStyles((theme) => ({
-  // container: theme.sections.feedback,
+  container: theme.sections.feedback,
+  containerTransparent: {},
   carousel: {
     width: "100%",
     "& .slide": {
@@ -14,6 +15,12 @@ const useStyles = makeStyles((theme) => ({
   },
   item: {
     ...theme.sections.feedback,
+    width: "100%",
+    height: "100%",
+    padding: "15px 0 35px 0",
+  },
+  itemTransparent: {
+    ...theme.sections.feedbackTransparent,
     width: "100%",
     height: "100%",
     padding: "15px 0 35px 0",
@@ -30,10 +37,15 @@ const useStyles = makeStyles((theme) => ({
 
 const ScrollingFeedback = observer(() => {
   const classes = useStyles();
-
   const currentPage = PageStore.getCurrentPage();
   return currentPage && currentPage.feedback ? (
-    <div className={classes.container}>
+    <div
+      className={
+        currentPage.feedbackTransparent
+          ? classes.containerTransparent
+          : classes.container
+      }
+    >
       <Carousel
         showStatus={false}
         showThumbs={false}
@@ -48,7 +60,11 @@ const ScrollingFeedback = observer(() => {
         {currentPage.feedback.map((item, i) => (
           <Grid
             container
-            className={classes.item}
+            className={
+              currentPage.feedbackTransparent
+                ? classes.itemTransparent
+                : classes.item
+            }
             key={i}
             direction="column"
             justify="space-around"
