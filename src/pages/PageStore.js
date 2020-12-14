@@ -4,15 +4,20 @@ import AboutUs from "../pages/AboutUs";
 import WhyWeLoveYoga from "./WhyWeLoveYoga";
 import JoinIn from "../pages/JoinIn";
 import homeImg1 from "../images/home-1.jpg";
+import homeImg1Small from "../images/home-1-small.jpg";
 import landingImg2 from "../images/gladfest-02.jpg";
 import landingImg3 from "../images/gladfest-03.jpg";
 import landingImg5 from "../images/gladfest-05.jpg";
+import landingImg2Small from "../images/gladfest-02-small.jpg";
+import landingImg3Small from "../images/gladfest-03-small.jpg";
+import landingImg5Small from "../images/gladfest-05-small.jpg";
 
 const home = {
   component: <Home />,
   title: "Pyramid Adventures",
   subtitle: "Yoga Tales For Kids",
   img: homeImg1,
+  imgSmall: homeImg1Small,
   fullPage: true,
   feedbackTransparent: true,
   feedback: [
@@ -49,6 +54,7 @@ const pages = {
     title: "Our Story",
     menuTitle: "Our Story",
     img: landingImg5,
+    imgSmall: landingImg5Small,
     feedbackTransparent: false,
     feedback: [
       {
@@ -83,6 +89,7 @@ const pages = {
     subtitle: "",
     menuTitle: "Why We Love Yoga",
     img: landingImg2,
+    imgSmall: landingImg2Small,
     feedbackTransparent: false,
     feedback: [
       {
@@ -117,6 +124,7 @@ const pages = {
     subtitle: "Get some yoga magic into your setting!",
     menuTitle: "Join In",
     img: landingImg3,
+    imgSmall: landingImg3Small,
     feedbackTransparent: false,
     feedback: [
       {

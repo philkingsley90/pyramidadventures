@@ -24,9 +24,19 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     height: height,
     objectFit: "cover",
+    zIndex: 2,
+  },
+  imgSmall: {
+    position: "absolute",
+    left: 0,
+    width: "100%",
+    height: height,
+    objectFit: "cover",
+    filter: "blur(3px)",
+    zIndex: 1,
   },
   content: {
-    zIndex: 2,
+    zIndex: 3,
     height: height,
   },
   fullHeightContainer: {
@@ -39,9 +49,19 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     height: fullHeight,
     objectFit: "cover",
+    zIndex: 2,
+  },
+  fullHeightImgSmall: {
+    position: "absolute",
+    left: 0,
+    width: "100%",
+    height: fullHeight,
+    objectFit: "cover",
+    filter: "blur(3px)",
+    zIndex: 1,
   },
   fullHeightContent: {
-    zIndex: 2,
+    zIndex: 3,
     height: fullHeight,
   },
 
@@ -50,11 +70,11 @@ const useStyles = makeStyles((theme) => ({
   },
 
   textContent: {
-    zIndex: 2,
+    zIndex: 3,
     width: "100vw",
   },
   feedback: {
-    zIndex: 2,
+    zIndex: 3,
     width: "100vw",
   },
   // innerContainer: {
@@ -92,6 +112,13 @@ const Content = observer(() => {
   const fullPage = currentPage.fullPage;
   return currentPage ? (
     <div className={fullPage ? classes.fullHeightContainer : classes.container}>
+      {currentPage.imgSmall ? (
+        <img
+          src={currentPage.imgSmall}
+          alt="Pyramid Adventures"
+          className={fullPage ? classes.fullHeightImg : classes.imgSmall}
+        />
+      ) : null}
       <img
         src={currentPage.img}
         alt="Pyramid Adventures"
