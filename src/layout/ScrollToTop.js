@@ -10,7 +10,7 @@ const scrollToSection = () => {
       const element = document.getElementById(elementId);
       if (element) {
         element.scrollIntoView();
-        window.scrollBy(0, -100); // Adjusts for the nav bar
+        window.scrollBy(0, -64); // Adjusts for the nav bar
       }
     }, 800);
   }
