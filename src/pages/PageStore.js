@@ -45,7 +45,6 @@ const home = {
 const pages = {
   "/": home,
   "/index.html": home,
-  "/index.htm": home,
   "/index": home,
   "/about-us": {
     component: <AboutUs />,
