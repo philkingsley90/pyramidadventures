@@ -35,7 +35,7 @@ const Content = () => {
       text: "",
       buttonText: "Find Out More",
       onClick: () => {
-        history.push("/join-in#youtube");
+        history.push("/join-in/#youtube");
       },
     },
     {
@@ -44,7 +44,7 @@ const Content = () => {
       text: "",
       buttonText: "Find Out More",
       onClick: () => {
-        history.push("/join-in#online-packages");
+        history.push("/join-in/#online-packages");
       },
     },
     {
@@ -53,7 +53,7 @@ const Content = () => {
       text: "",
       buttonText: "Find Out More",
       onClick: () => {
-        history.push("/join-in?#face-to-face");
+        history.push("/join-in/#face-to-face");
       },
     },
   ];

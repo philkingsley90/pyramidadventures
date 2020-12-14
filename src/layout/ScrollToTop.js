@@ -2,10 +2,10 @@ import React, { useEffect, Fragment } from "react";
 import { withRouter } from "react-router-dom";
 
 const scrollToSection = () => {
-  const hash = window.location.hash;
+  const hash = decodeURIComponent(window.location.hash);
   const index = hash.lastIndexOf("#");
   if ((index > 0) & (index + 1 < hash.length)) {
-    const elementId = hash.substring(index + 1);
+    const elementId = hash.substring(index + 1).replace(/\//g, "");
     setTimeout(() => {
       const element = document.getElementById(elementId);
       if (element) {
