@@ -43,9 +43,6 @@ const home = {
 };
 
 const pages = {
-  "/": home,
-  "/index.html": home,
-  "/index": home,
   "/about-us": {
     component: <AboutUs />,
     title: "Our Story",
@@ -144,6 +141,9 @@ const pages = {
       },
     ],
   },
+  "/index.html": home,
+  "/index": home,
+  "/": home,
 };
 
 class PageStore {

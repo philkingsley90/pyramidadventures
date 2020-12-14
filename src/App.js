@@ -18,7 +18,7 @@ const App = observer(() => {
     <ScrollToTop>
       <Switch>
         {PageStore.getPaths().map((path) => (
-          <Route exact path={path} key={path}>
+          <Route path={path + "*"} key={path}>
             <Page path={path} />
           </Route>
         ))}
