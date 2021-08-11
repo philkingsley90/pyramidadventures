@@ -65,10 +65,7 @@ const Content = () => {
       <div className={classes.container}>
         <Container maxWidth="lg" className={classes.innerContainer}>
           <Typography variant="body1" className={classes.text}>
-            Lucy is an experienced primary school teacher who is on a mission to
-            share the power of yoga with even more children. With Pyramid
-            Adventures, children taking part in yoga and teachers embarking on
-            CPD, have an enthusiastic, caring, and knowledgeable teacher.
+            Lucy is an experienced primary school teacher who uses her expertise in education and and creativity in her role as a Creative Catalyst. She works in partnership with a variety of organisations across Gloucestershire, with creatvity and wellbeing at the heart of everything she does.
           </Typography>
         </Container>
 
