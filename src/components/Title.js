@@ -55,7 +55,7 @@ const Title = ({ title }) => {
           {title}
         </Typography>
         <Typography variant="h2" className={classes.subtitle}>
-          Yoga Tales For Kids
+          Lucy Kingsley - Creative Catalyst
         </Typography>
       </div>
     </div>
