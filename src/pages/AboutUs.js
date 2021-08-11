@@ -83,7 +83,7 @@ const Content = () => {
               <Grid item />
               <Grid item>
                 <Typography variant="h3">
-                  What has Lucy been learning about?
+                  What has Lucy been involved in?
                 </Typography>
                 <Typography
                   variant="body2"
@@ -92,6 +92,10 @@ const Content = () => {
                   className={classes.textList}
                 >
                   <ul>
+                    <li>Lucy is part of the 'Can't Sit Still' family where she works as an artist facilitator and photographer.  Most recently, Lucy has been working on their 'Invisible Thread' project which has been supporting and nurturing new mothers with magical creative invitations.</li>
+                    <li>In partnership with Active Gloucestershire, Gloucestershire Healthy Living and Learning and Shift, Lucy taught on the pilot programme to train 20 teachers in Gloucestershire as Wellbeing Ambassadors.  These teachers are now confidently delivering yoga and wellbeing sessions to children all over Gloucestershire in primary and secondary schools.  This work has been celebrated and recomissioned, Lucy will join the team again in Autumn 2021 to train even more teachers.</li>
+                    <li>Lucy has been commissioned to develop and deliver a Yoga for Younger Learners course for graduates from the above Wellbeing Ambassador course.  The first round will launch in September 2021.</li>                    
+                    <li>Lucy's expertise in Early Years is used in her role as a Lecturer in Early Years at an FE College in Gloucestershire.</li>                    
                     <li>‘Yoga on the Lane’ Teacher Immersion</li>
                     <li>Cosmic Kids Yoga Certification</li>
                     <li>
