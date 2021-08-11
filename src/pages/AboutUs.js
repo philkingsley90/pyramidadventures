@@ -135,30 +135,29 @@ const Content = () => {
                   color="inherit"
                   className={classes.text}
                 >
-                  These formal accreditations are in addition to Lucy’s other
-                  learning opportunities she has curated. As a classroom
-                  teacher, Lucy understood the huge undertaking we ask of our
-                  children at school everyday … to learn!
+                  As a classroom
+                  teacher and EY lecturer, Lucy understands the huge undertaking we ask of
+                  children everyday … to learn!  As an artist facilitator, gathering groups of strangers together, Lucy understands the anxieties we have as adults when we meet new people and are asked to do new things.
                 </Typography>
                 <Typography
                   variant="body2"
                   color="inherit"
                   className={classes.text}
                 >
-                  This process involves such a variety of skills and emotions;
-                  joy, frustration, fear, determination, exhaustion and pride
-                  can be overwhelming emotions as children learn, and this can
-                  too easily be forgotten by adults.
+                  These gatherings involve such a variety of skills and emotions;
+                  joy, frustration, fear, determination, exhaustion and pride.  These feelings
+                  can be overwhelming emotions as we learn and grow, and this can
+                  too easily be forgotten.
                 </Typography>
                 <Typography
                   variant="body2"
                   color="inherit"
                   className={classes.text}
                 >
-                  This is why Lucy is always learning. It’s important that she
-                  reminds herself of how it feels to be a learner, so she can
-                  respect and support children that she works with from this
-                  perspective.
+                  This is why Lucy is always learning and challenging herself. It’s important that she
+                  reminds herself of how it feels to be a learner, how it feels to be outside of her comfort zone, so she can
+                  respect and support children, young people and adults she works with from this
+                  deeply compassionate perspective.
                 </Typography>
               </Grid>
               <Grid item />
