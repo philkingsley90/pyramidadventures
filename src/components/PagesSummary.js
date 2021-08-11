@@ -9,7 +9,7 @@ const summaries = [
     img: aboutUsImg,
     alt: "Portrait of Lucy",
     title: "The story of Pyramid Adventures",
-    text: `She’s been a primary school teacher and now she’s a children’s yoga teacher.  What else is there to know?`,
+    text: `She’s been a primary school teacher and now she’s calling herself a Creative Catalyst.  What on earth is she on about?`,
     buttonText: "Find Out More",
     onClickPath: "/about-us",
   },
