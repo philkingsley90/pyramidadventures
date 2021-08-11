@@ -15,7 +15,7 @@ import landingImg5Small from "../images/gladfest-05-small.jpg";
 const home = {
   component: <Home />,
   title: "Pyramid Adventures",
-  subtitle: "Yoga Tales For Kids",
+  subtitle: "Lucy Kingsley - Creative Catalyst",
   img: homeImg1,
   imgSmall: homeImg1Small,
   fullPage: true,
@@ -32,8 +32,8 @@ const home = {
     },
     {
       quote:
-        "I am a complete yoga novice, but can really see the benefits for children and myself in terms of health and wellbeing.",
-      author: "CPD participant",
+        "I never would have believed I would be dancing round a field with a baby until I met you!",
+      author: "Mother from Invisible Thread project with Can't Sit Still Theatre Company",
     },
     {
       quote:
@@ -68,8 +68,8 @@ const pages = {
       },
       {
         quote:
-          "I am a complete yoga novice, but can really see the benefits for children and myself in terms of health and wellbeing.",
-        author: "CPD participant",
+        "I never would have believed I would be dancing round a field with a baby until I met you!",
+      author: "Mother from Invisible Thread project with Can't Sit Still Theatre Company",
       },
       {
         quote:
@@ -103,8 +103,8 @@ const pages = {
       },
       {
         quote:
-          "I am a complete yoga novice, but can really see the benefits for children and myself in terms of health and wellbeing.",
-        author: "CPD participant",
+        "I never would have believed I would be dancing round a field with a baby until I met you!",
+      author: "Mother from Invisible Thread project with Can't Sit Still Theatre Company",
       },
       {
         quote:
@@ -138,8 +138,8 @@ const pages = {
       },
       {
         quote:
-          "I am a complete yoga novice, but can really see the benefits for children and myself in terms of health and wellbeing.",
-        author: "CPD participant",
+        "I never would have believed I would be dancing round a field with a baby until I met you!",
+      author: "Mother from Invisible Thread project with Can't Sit Still Theatre Company",
       },
       {
         quote:
